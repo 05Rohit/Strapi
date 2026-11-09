@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "users_details",
+  "info": {
+    "singularName": "users-detail",
+    "pluralName": "users-details",
+    "displayName": "Users detail"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "FirstName": {
+      "type": "string"
+    },
+    "LastName": {
+      "type": "string"
+    }
+  }
+}

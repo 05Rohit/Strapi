@@ -1,0 +1,32 @@
+{
+    "kind": "collectionType",
+    "collectionName": "tasks",
+    "info": {
+        "singularName": "task",
+        "pluralName": "tasks",
+        "displayName": "Task"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text"
+        },
+        "is_status": {
+            "type": "enumeration",
+            "enum": [
+                "pending",
+                "in_progress",
+                "completed"
+            ]
+        },
+        "dueDate": {
+            "type": "date"
+        }
+    }
+}
